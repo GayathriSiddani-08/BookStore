@@ -1,0 +1,22 @@
+PUT http://localhost:3000/users/3/
+Content-Type: application/json
+Accept: application/json
+
+{
+    "username": "Kiran", 
+    "email": "kiran123@gmail.com"
+}
+
+###send request ###
+GET http://localhost:/3000/books/
+
+###send request ###
+GET http://localhost:/3000/books/1
+
+
+
+###
+PUT http://localhost:3000/books/1
+
+###
+DELETE http://localhost:3000/books/1
